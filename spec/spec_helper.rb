@@ -100,6 +100,7 @@ RSpec.configure do |config|
 
 ENV['RACK_ENV'] = 'test'
 require './app'
+require './spec/features/web_helper'
 require 'capybara'
 require 'capybara/rspec'
 require 'rspec'
